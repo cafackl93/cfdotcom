@@ -13,4 +13,4 @@ github_username:  cafackl93
 # Build settings
 markdown: kramdown
 
-remote-theme: poole/hyde
+remote_theme: poole/hyde
