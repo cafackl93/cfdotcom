@@ -1,26 +1,17 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: Caleb Fackler, PharmD, MBA
+email: cafackl@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://calebfackler.com" # the base hostname & protocol for your site
+twitter_username: facksoflife
+github_username:  cafackl93
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+# Build settings
+markdown: kramdown
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+remote_theme: poole/hyde
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
