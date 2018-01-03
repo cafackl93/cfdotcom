@@ -1,11 +1,31 @@
 # Site settings
 title: Caleb Fackler, PharmD, MBA
 email: cafackl@gmail.com
-description: asdasd
+description: pharmacist, leader, data enthusiast
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://calebfackler.com" # the base hostname & protocol for your site
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: cafackl93
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: facksoflife
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 twitter_username: facksoflife
 github_username:  cafackl93
 
 # Build settings
 markdown: kramdown
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
