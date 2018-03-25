@@ -3,7 +3,7 @@ layout: page
 title: Dashboard
 permalink: /dashboard/
 ---
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Bootstrap Theme Company Page</title>
