@@ -1,55 +1,35 @@
 ---
 layout: page
-title: About
+title: Dashboard
 permalink: /dashboard/
 ---
-
-<html lang="en">
-<head>
-  <title>Bootstrap Theme Company Page</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-
-
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div id="tradingview_9fd58"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NYSE-WMT/" rel="noopener" target="_blank"><span class="blue-text">WMT</span> <span class="blue-text">chart</span> by TradingView</a></div>
+  <div id="tradingview_98a8d"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/SP-SPX/" rel="noopener" target="_blank"><span class="blue-text">SPX chart</span></a> by TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
   new TradingView.widget(
   {
   "autosize": true,
-  "symbol": "NYSE:WMT",
-  "interval": "D",
-  "timezone": "Etc/UTC",
-  "theme": "Light",
-  "style": "1",
+  "symbol": "SP:SPX",
+  "interval": "60",
+  "timezone": "exchange",
+  "theme": "Dark",
+  "style": "2",
   "locale": "en",
-  "toolbar_bg": "#f1f3f6",
+  "toolbar_bg": "rgba(255, 255, 255, 1)",
   "enable_publishing": false,
+  "withdateranges": true,
   "hide_side_toolbar": false,
   "allow_symbol_change": true,
-  "watchlist": [
-    "NYSE:WMT",
-    "NASDAQ:AMZN"
+  "save_image": false,
+  "studies": [
+    "MACD@tv-basicstudies"
   ],
-  "details": true,
-  "calendar": true,
-  "news": [
-    "stocktwits"
-  ],
-  "hideideasbutton": true,
-  "container_id": "tradingview_9fd58"
+  "container_id": "tradingview_98a8d"
 }
   );
   </script>
 </div>
 <!-- TradingView Widget END -->
-</html>
