@@ -22,10 +22,3 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
 twitter_username: facksoflife
 github_username:  cafackl93
-
-# Build settings
-markdown: kramdown
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
